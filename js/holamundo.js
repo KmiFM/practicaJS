@@ -18,3 +18,8 @@ let nombre = prompt('Ingrese su nombre')
 
 console.log(nombre);
 document.write('<p>Hola' + nombre + '</p>'); 
+//ejemplo de variable constante
+const url = 'https://campus.rollingcodeschool.com/'
+document.write(url);
+url = 'otro link';
+document.write(url)
