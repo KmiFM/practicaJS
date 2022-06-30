@@ -12,3 +12,9 @@ alert('desde una ventana emergente');
 //sumar dos valores
 document.write(12+5)
 
+document.write('<br> esto es una prueba')
+//para crear una variable selecciono entre var, let y const
+let nombre = prompt('Ingrese su nombre')
+
+console.log(nombre);
+document.write('<p>Hola' + nombre + '</p>'); 
