@@ -26,8 +26,18 @@ do{
  cambiar la condicion logica
 }while(condicion logica) 
 */
-let mate = 1;
-do{
-    document.write( "<br> preparar mate y entregarlo al siguiente compañero, mate cebado n:" + mate);
-    mate++;
-}while(mate <= 20)
+// let mate = 1;
+// do{
+//     document.write( "<br> preparar mate y entregarlo al siguiente compañero, mate cebado n:" + mate);
+//     mate++;
+// }while(mate <= 20)
+/* Bucle for
+
+for(inicializar una variable ; condicion logica ; incrementar o decrementar la variable declarada al inicio) {
+    todo el codigo a ejecutar repetidas veces
+}
+*/
+
+for(let mate =1; mate <= 20; mate= mate+1){
+    document.write( "<br> preparar mate y entregarlo al siguiente compañero, mate cebado n:" + mate);   
+};
