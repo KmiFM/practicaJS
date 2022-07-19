@@ -69,3 +69,5 @@ for(let indice=0; indice < series.length ; indice++){
 document.write(`<li>${series[indice]}</li>`)
 }
 document.write(`</ul>`);
+
+
